@@ -40,19 +40,29 @@
 
 ## 💻 Computer Science
 
-- ### Computer Architecture
+### Computer Architecture
 
-  - [컴퓨터 구조 기초]()
-  - [컴퓨터의 구성](/Computer%20Science/Computer%20Architecture/컴퓨터의%20구성.md)
-  - [중앙처리장치(CPU) 작동 원리]()
-  - [캐시 메모리]()
-  - [고정 소수점 & 부동 소수점]()
-  - [패리티 비트 & 해밍 코드]()
-  - [ARM 프로세서]()
+|파트|진행상태|학습시간|강의내용|참여자|
+| ------ | ------ | ------ | ------ | ------ |
+| | | | [강의 개요](컴퓨터-구조) | 권장 학습기간: `8주`, 학습분량: 주당 `5시간`|
+|1| :white_large_square: |2| [컴퓨터-구조 개요](컴퓨터-구조/컴퓨터-구조-개요.md) | |
+|1| :white_large_square: |3| [1장 디지털 논리 회로 및 강의소개](컴퓨터-구조/1장-디지털-논리-회로-및-강의소개.md) | |
+|1| :white_large_square: |3| [2장 디지털 부품](컴퓨터-구조/2장-디지털-부품.md) | |
+|1| :white_large_square: |3| [3장 데이터의 표현](컴퓨터-구조/3장-데이터의-표현.md) | |
+|1| :white_large_square: |2| [4장 레지스터 전송과 마이크로 연산](컴퓨터-구조/4장-레지스터-전송과-마이크로-연산.md) | |
+|1| :white_large_square: |3| [5장 기본 컴퓨터의 구조와 설계-Part1](컴퓨터-구조/5장-기본-컴퓨터의-구조와-설계-Part1.md) | |
+|1| :white_large_square: |3| [5장 기본 컴퓨터의 구조와 설계-Part2](컴퓨터-구조/5장-기본-컴퓨터의-구조와-설계-Part2.md) | |
+|2| :white_large_square: |3| [6장 기본 컴퓨터 프로그래밍](컴퓨터-구조/6장-기본-컴퓨터-프로그래밍.md) | |
+|2| :white_large_square: |3| [7장 마이크로 프로그램](컴퓨터-구조/7장-마이크로-프로그램.md) | |
+|2| :white_large_square: |3| [8장 중앙 처리 장치](컴퓨터-구조/8장-중앙-처리-장치.md) | |
+|2| :white_large_square: |3| [9장 파이프라인과 벡터 처리](컴퓨터-구조/9장-파이프라인과-벡터-처리.md) | |
+|2| :white_large_square: |3| [10장 컴퓨터 산술 연산](컴퓨터-구조/10장-컴퓨터-산술-연산.md) | |
+|2| :white_large_square: |3| [11장 입출력 구조](컴퓨터-구조/11장-입출력-구조.md) | |
+|2| :white_large_square: |3| [12장 메모리 구조](컴퓨터-구조/12장-메모리-구조.md) | |
 
-  <br>
+<br>
 
-- ### Data Structure
+### Data Structure
 
   - [Array]()
   - [LinkedList]()
@@ -67,7 +77,7 @@
 
   <br>
 
-- ### Database
+### Database
 
   - [키(Key) 정리]()
   - [SQL - JOIN]()
@@ -83,42 +93,42 @@
 
   <br>
 
-- ### Network
+### Network
 
-  - [OSI 7 계층]()
-  - [TCP 3 way handshake & 4 way handshake]()
-  - [TCP/IP 흐름제어 & 혼잡제어]()
-  - [UDP]()
-  - [대칭키 & 공개키]()
-  - [HTTP & HTTPS]()
-  - [TLS/SSL handshake]()
-  - [로드 밸런싱(Load Balancing)]()
-  - [Blocking,Non-blocking & Synchronous,Asynchronous]()
-  - [Blocking & Non-Blocking I/O]()
-
-  <br>
-
-- ### Operating System
-
-  - [운영체제란]()
-  - [프로세스 vs 스레드]()
-  - [프로세스 주소 공간]()
-  - [인터럽트(Interrupt)]()
-  - [시스템 콜(System Call)]()
-  - [PCB와 Context Switching]()
-  - [IPC(Inter Process Communication)]()
-  - [CPU 스케줄링]()
-  - [데드락(DeadLock)]()
-  - [Race Condition]()
-  - [세마포어(Semaphore) & 뮤텍스(Mutex)]()
-  - [페이징 & 세그먼테이션]() ([PDF]())
-  - [페이지 교체 알고리즘]()
-  - [메모리(Memory)]()
-  - [파일 시스템]()
+|파트|진행상태|학습시간|강의내용|참여자|
+| ------ | ------ | ------ | ------ | ------ |
+| | | | [강의 개요](네트워크) | 권장 학습기간: `2주`, 학습분량: 주당 `7.5시간`|
+|1| :white_large_square: |1| [1, 2장 네트워크와 모델](네트워크/1,-2장-네트워크와-모델.md) | |
+|1| :white_large_square: |1| [3장 데이터 통신](네트워크/3장-데이터-통신.md) | |
+|1| :white_large_square: |2| [4장 IP 주소](네트워크/4장-IP-주소.md) | |
+|1| :white_large_square: |1| [5장 ARP 프로토콜](네트워크/5장-ARP-프로토콜.md) | |
+|1| :white_large_square: |2| [6장 IPv4, ICMP 프로토콜](네트워크/6장-IPv4,-ICMP-프로토콜.md) | |
+|2| :white_large_square: |2| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) | |
+|2| :white_large_square: |1| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) | |
+|2| :white_large_square: |2| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) | |
+|2| :white_large_square: |1| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) | |
+|2| :white_large_square: |2| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) | |
 
   <br>
 
-- ### Software Engineering
+### Operating System
+
+|파트|진행상태|학습시간|강의내용|참여자|
+| ------ | ------ | ------ | ------ | ------ |
+| | | | [강의 개요](운영체제) | 권장 학습기간: `8주`, 학습분량: 주당 `5시간`|
+|1| :white_large_square: |5| [1, 2장 운영체제 개요 및 컴퓨터시스템의 구조](운영체제/1,-2장-운영체제-개요-및-컴퓨터시스템의-구조.md) | |
+|1| :white_large_square: |4| [3장 프로세스](운영체제/3장-프로세스.md) | |
+|1| :white_large_square: |4| [4장 프로세스 관리](운영체제/4장-프로세스-관리.md) | |
+|1| :white_large_square: |3| [5장 CPU 스케쥴링](운영체제/5장-CPU-스케쥴링.md) | |
+|1| :white_large_square: |5| [6장 프로세스 동기화](운영체제/6장-프로세스-동기화.md) | |
+|1| :white_large_square: |3| [7장 교착상태](운영체제/7장-교착상태.md) | |
+|2| :white_large_square: |5| [8장 메모리 관리](운영체제/8장-메모리-관리.md) | |
+|2| :white_large_square: |4| [9장 가상 메모리](운영체제/9장-가상-메모리.md) | |
+|2| :white_large_square: |4| [10, 11장 파일 시스템과 구현](운영체제/10,-11장-파일-시스템과-구현.md) | |
+|2| :white_large_square: |3| [12장 디스크 관리 및 스케쥴링](운영체제/12장-디스크-관리-및-스케쥴링.md) | |
+  <br>
+
+### Software Engineering
 
   - [클린코드 & 리팩토링]() / [클린코드 & 시큐어코딩]()
   - [TDD(Test Driven Development)]()
