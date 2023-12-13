@@ -55,6 +55,9 @@
  - 기간 정해두고 단원 별 내용 정리. 
  - 이미지 등 참고 자료는 resources 경로폴더에 저장
 
+> 스터디 시간
+- 매주 화요일, 금요일
+- 18시(방학) -> 20시(개강)
 
 ## 규칙
 
@@ -74,6 +77,7 @@
 
 ### Data Structure
 <details>
+<summary>Data Structure</summary>
 <div markdown="1">
 
 |회차|강의내용|발표자|참여자|
