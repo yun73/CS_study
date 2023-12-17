@@ -8,23 +8,11 @@
     <td align="center"><a href="https://github.com/yun73"><img src="https://avatars.githubusercontent.com/yun73" width="130px;" style="border-radius:20%;" alt=""></a></td>
     <td align="center"><a href="https://github.com/jgh05168"><img src="https://avatars.githubusercontent.com/jgh05168" width="130px;" style="border-radius:20%;" alt=""></a></td>
     <td align="center"><a href="https://github.com/seonggwon98"><img src="https://avatars.githubusercontent.com/seonggwon98" width="130px;"  style="border-radius:20%;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/"><img src="https://avatars.githubusercontent.com/yun73" width="130px;" style="border-radius:20%;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/minzzikang"><img src="https://avatars.githubusercontent.com/minzzikang" width="130px;" style="border-radius:20%;" alt=""></a></td>
     <td align="center"><a href="https://github.com/minwookkim115"><img src="https://avatars.githubusercontent.com/minwookkim115" width="130px;" style="border-radius:20%;" alt=""></a></td>
     <td align="center"><a href="https://github.com/muncheolhwan"><img src="https://avatars.githubusercontent.com/muncheolhwan" width="130px;" style="border-radius:20%;" alt=""></a></td>
     <td align="center"><a href="https://github.com/jjaehong"><img src="https://avatars.githubusercontent.com/jjaehong" width="130px;" style="border-radius:20%;" alt=""></a></td>
   </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/yun73"><b>윤형</b></a></td>
-    <td align="center"><a href="https://github.com/jgh05168"><b>규훈</b></a></td>
-    <td align="center"><a href="https://github.com/seonggwon98"><b>성권</b></a></td>
-    <td align="center"><a href="https://github.com/"><b>민지</b></a></td>
-    <td align="center"><a href="https://github.com/minwookkim115"><b>민욱</b></a></td>
-    <td align="center"><a href="https://github.com/muncheolhwan"><b>철환</b></a></td> 
-    <td align="center"><a href="https://github.com/jjaehong"><b>재홍</b></a></td>
-  </tr>
-  <tr> 
-    
-  </tr> 
 </table>
 
 <br/>
@@ -82,15 +70,15 @@
 
 |회차|강의내용|발표자|참여자|
 | ------ | ------ | ------ | ------ |
-||[강의개요]()|[자료구조 참고강의](https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)|||
-||[Array]()|||
+||[강의개요](/Computer%20Science/Data%20Structure/README.md)|[자료구조 참고강의](https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)|||
+||[Array](/Computer%20Science/Data%20Structure/Array.md)|||
 ||[LinkedList]()|||
 ||[Array & ArrayList & LinkedList]()|||
 ||[스택(Stack) & 큐(Queue)]()|||
 ||[힙(Heap)]()|||
 ||[트리(Tree)]()|||
 ||[이진탐색트리(Binary Search Tree)]()|||
-||[해시(Hash)]()|||
+||[해시(Hash)](/Computer%20Science/Data%20Structure/Hash.md)|||
 ||[트라이(Trie)]()|||
 ||[B-Tree & B+Tree]()|||
 
