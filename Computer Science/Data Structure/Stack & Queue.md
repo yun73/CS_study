@@ -1,6 +1,9 @@
-## 스택(Stack)
+## 1. 스택(Stack)
 
 
+![이미지]()
+- 물건을 쌓아 올리듯 자료를 쌓아 올린 형태의 자료구조
+- 스택
 
 ##### LIFO (Last In First Out, 후입선출) : 가장 나중에 들어온 것이 가장 먼저 나옴
 
@@ -110,3 +113,6 @@ rear : enQueue 할 위치 기억
 
 ##### dequeue 구현
 
+
+
+## 3. 덱(Deque, Double-ended Queue)
