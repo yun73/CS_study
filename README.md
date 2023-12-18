@@ -75,7 +75,7 @@
 ||[LinkedList]()|||
 ||[Array & ArrayList & LinkedList]()|||
 ||[스택(Stack) & 큐(Queue)]()|||
-||[힙(Heap)]()|||
+||[힙(Heap)](/Computer%20Science/Data%20Structure/Heap.md)|||
 ||[트리(Tree)](/Computer%20Science/Data%20Structure/Tree.md)|||
 ||[이진탐색트리(Binary Search Tree)]()|||
 ||[해시(Hash)](/Computer%20Science/Data%20Structure/Hash.md)|||
