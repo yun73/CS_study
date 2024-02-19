@@ -49,7 +49,7 @@
 
 ## 규칙
 
-1. 시간은 추후 조정
+1. 매주 화요일 오후 8시
 
 2. 한 달에 사유 결석은 3회 이하로 하고, 무단 결석 시 초기 1000원으로 시작하여 결석이 거듭 될 수록 ^2배로 금액이 증가
 
@@ -68,19 +68,19 @@
 <summary>Data Structure</summary>
 <div markdown="1">
 
-|회차|강의내용|발표자|참여자|
-| ------ | ------ | ------ | ------ |
-||[강의개요](/Computer%20Science/Data%20Structure/README.md)|[자료구조 참고강의](https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)|||
-||[Array](/Computer%20Science/Data%20Structure/Array.md)|||
-||[LinkedList]()|||
-||[Array & ArrayList & LinkedList]()|||
-||[스택(Stack) & 큐(Queue)]()|||
-||[힙(Heap)](/Computer%20Science/Data%20Structure/Heap.md)|||
-||[트리(Tree)](/Computer%20Science/Data%20Structure/Tree.md)|||
-||[이진탐색트리(Binary Search Tree)]()|||
-||[해시(Hash)](/Computer%20Science/Data%20Structure/Hash.md)|||
-||[트라이(Trie)]()|||
-||[B-Tree & B+Tree]()|||
+|회차|강의내용|발표자|
+| ------ | ------ | ------ |
+||[강의개요](/Computer%20Science/Data%20Structure/README.md)|[자료구조 참고강의](https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)||
+||[Array](/Computer%20Science/Data%20Structure/Array.md)|이윤형|
+||[LinkedList]()||
+||[Array & ArrayList & LinkedList]()||
+||[스택(Stack) & 큐(Queue)](/Computer%20Science/Data%20Structure/Stack%20%26%20Queue.md)|승재홍|
+||[힙(Heap)](/Computer%20Science/Data%20Structure/Heap.md)|김민욱|
+||[트리(Tree)](/Computer%20Science/Data%20Structure/Tree.md)|전규훈|
+||[이진탐색트리(Binary Search Tree)]()||
+||[해시(Hash)](/Computer%20Science/Data%20Structure/Hash.md)|강민지|
+||[트라이(Trie)](/Computer%20Science/Data%20Structure/Trie.md)|문철환|
+||[B-Tree & B+Tree](/Computer%20Science/Data%20Structure/B%20Tree%20%26%20B%2B%20Tree.md)|강성권|
 
 </div>
 </details>
@@ -94,23 +94,24 @@
 <details>
 <div markdown="1">
 
-|회차|강의내용|발표자|참여자|
-| ------ | ------ | ------ | ------ |
-| | [강의 개요](/Computer%20Science/Computer%20Architecture/readme.md) |||
-|1| [컴퓨터구조 개요](/Computer%20Science/Computer%20Architecture/ch_01.컴퓨터구조.md) |||
-|2| [데이터](/Computer%20Science/Computer%20Architecture/ch_02.데이터.md) |||
-|3| [명령어](/Computer%20Science/Computer%20Architecture/ch_03.명령어.md) |||
-|4| [cpu작동원리](/Computer%20Science/Computer%20Architecture/ch_04.CPU%20작동원리.md) |||
-|1| [4장 레지스터 전송과 마이크로 연산](컴퓨터-구조/4장-레지스터-전송과-마이크로-연산.md) |||
-|1| [5장 기본 컴퓨터의 구조와 설계-Part1](컴퓨터-구조/5장-기본-컴퓨터의-구조와-설계-Part1.md) |||
-|1| [5장 기본 컴퓨터의 구조와 설계-Part2](컴퓨터-구조/5장-기본-컴퓨터의-구조와-설계-Part2.md) |||
-|2| [6장 기본 컴퓨터 프로그래밍](컴퓨터-구조/6장-기본-컴퓨터-프로그래밍.md) |||
-|2| [7장 마이크로 프로그램](컴퓨터-구조/7장-마이크로-프로그램.md) |||
-|2| [8장 중앙 처리 장치](컴퓨터-구조/8장-중앙-처리-장치.md) |||
-|2| [9장 파이프라인과 벡터 처리](컴퓨터-구조/9장-파이프라인과-벡터-처리.md) |||
-|2| [10장 컴퓨터 산술 연산](컴퓨터-구조/10장-컴퓨터-산술-연산.md) |||
-|2| [11장 입출력 구조](컴퓨터-구조/11장-입출력-구조.md) |||
-|2| [12장 메모리 구조](컴퓨터-구조/12장-메모리-구조.md) |||
+|회차|강의내용|발표자|
+| ------ | ------ | ------ |
+|0| [강의 개요](/Computer%20Science/Computer%20Architecture/readme.md) ||
+|1| [컴퓨터구조](/Computer%20Science/Computer%20Architecture/ch_01.컴퓨터구조.md) |이윤형|
+|2| [데이터](/Computer%20Science/Computer%20Architecture/ch_02.데이터.md) |이윤형|
+|3| [명령어](/Computer%20Science/Computer%20Architecture/ch_03.명령어.md) |이윤형|
+|4| [cpu작동원리](/Computer%20Science/Computer%20Architecture/ch_04.CPU%20작동원리.md) |이윤형|
+|5| [CPU 성능 향상 기법](/Computer%20Science/Computer%20Architecture/ch_05.CPU%20성능%20향상%20기법.md) |강민지|
+|6| [메모리와 캐시 메모리]() ||
+|7| [보조기억장치]() ||
+|8| [입출력장치](/Computer%20Science/Computer%20Architecture/ch_08.입출력장치.md) |강성권|
+|9| [운영체제 시작하기]() ||
+|10| [프로세스와 스레드]() ||
+|11| [CPU 스케줄링]() |강성권|
+|12| [프로세스 동기화]() |김민욱|
+|13| [교착 상태]() |강민지|
+|14| [가상 메모리]() |문철환|
+|15| [파일 시스템]() |전규훈|
 
 </div>
 </details>
@@ -123,7 +124,7 @@
 <details>
 <div markdown="1">
 
-|회차|강의내용|발표자|참여자|
+|회차|강의내용|발표자|
 | ------ | ------ | ------ | ------ |
 | |[강의 개요]() |||
 |1| [1, 2장 운영체제 개요 및 컴퓨터시스템의 구조](운영체제/1,-2장-운영체제-개요-및-컴퓨터시스템의-구조.md) | ||
@@ -149,19 +150,19 @@
 <details>
 <div markdown="1">
 
-|회차|강의내용|발표자|참여자|
-| ------ | ------ | ------ | ------ |
-| | [강의개요]() |||
-|1| [1, 2장 네트워크와 모델](네트워크/1,-2장-네트워크와-모델.md) |||
-|1| [3장 데이터 통신](네트워크/3장-데이터-통신.md) |||
-|1| [4장 IP 주소](네트워크/4장-IP-주소.md) |||
-|1| [5장 ARP 프로토콜](네트워크/5장-ARP-프로토콜.md) |||
-|1| [6장 IPv4, ICMP 프로토콜](네트워크/6장-IPv4,-ICMP-프로토콜.md) |||
-|2| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) |||
-|2| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) |||
-|2| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) |||
-|2| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) |||
-|2| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) |||
+|회차|강의내용|발표자|
+| ------ | ------ | ------ |
+| | [강의개요](/Computer%20Science/Network) ||
+|1| [1, 2장 네트워크와 모델](네트워크/1,-2장-네트워크와-모델.md) ||
+|2| [3장 데이터 통신](네트워크/3장-데이터-통신.md) ||
+|3| [4장 IP 주소](네트워크/4장-IP-주소.md) ||
+|4| [5장 ARP 프로토콜](네트워크/5장-ARP-프로토콜.md) ||
+|5| [6장 IPv4, ICMP 프로토콜](네트워크/6장-IPv4,-ICMP-프로토콜.md) ||
+|6| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) ||
+|7| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) ||
+|8| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) ||
+|9| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) ||
+|10| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) ||
 
 </div>
 </details>
