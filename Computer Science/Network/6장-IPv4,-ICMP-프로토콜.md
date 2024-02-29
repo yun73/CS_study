@@ -1,27 +1,55 @@
-### [IPv4 프로토콜](https://youtu.be/_i8O_o2ozlE?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
+# 06 멀리 있는 컴퓨터끼리는 이렇게 데이터를 주고 받는다
 
-- 
+## IPv4 프로토콜
+### IPv4가 하는 일
+- 네트워크 상 데이터 교환을 위한 프로토콜
+- 데이터가 정확히 전달될 것 보장 X => TCP에서 보장
+- 중복된 패킷 전달 or 패킷 순서 잘못 전달할 가능성 있음 (악의적 이용 시 Dos 공격)
 
-### [ICMP 프로토콜](https://youtu.be/JaBCIUsFE74?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
+### IPv4 프로토콜 구조
+![Alt text](<../../resources/Computer Science/Network/IPv4프로토콜/01.png>)
+- Version : IP 프로토콜 버전 (4버전 표기, 6버전도 있지만 구조자체가 다르다)
+- HLEN : Header Length. '헤더길이/4'의 값이 들어간다. (일반적으로 5)
+- Type of Service : 데이터의 중요도를 나타내는 파트로 예전엔 사용했지만 현재는 사용하지 않는다. (따라서 0)
+- Total Length : 페이로드까지 합쳐진 전체 길이
+- Identification : 각각의 조각화된 데이터들이 하나의 데이터임을 의미하는 ID값
+- Flags : x, Dont Flagmentation, More Flagmentation 으로 패킷 조각화를 설정한다.<br>
+(Dont Flagmentation은 강제로 패킷 조각화를 금지시키는 것이고, More Flagmentation은 패킷 조각화를 계속한다는 의미이다.)
+- Flagment Offset : 조각화된 데이터의 데이터순서를 맞춰주는 값이다. 첫 시작부분으로부터 떨어진 정도를 나타낸다.
+- TTL (Time To Live) : 패킷이 존재할 시간을 지정. 오류가 나서 특정 네트워크 대역에서 영원히 머물게되는 것을 방지한다.
+- Protocol : 상위 프로토콜이 무엇인지 알려준다. (ICMP : 1, TCP : 6, UDP: 17)
+- Header Checksum : 헤더에 오류가 있는지 확인하는 파트. (손실 방지)
+- Source IP Address : 출발지 IP주소
+- Destination IP Address : 목적지 IP주소
+- IP Option : 추가적으로 붙을 수도, 붙지 않을 수도 있는 옵션 (옵션당 4바이트 추가)
 
-- 
+## ICMP 프로토콜
+### ICMP가 하는 일
+- 네트워크 컴퓨터 위의 운영체제에게 오류 메세지를 전송받는데 주로 사용됨.
+- 프로토콜 구조의 Type과 Code가 이를 가능하게 함
 
-### [IPv4, ICMP프로토콜 실습](https://youtu.be/8ZwTvTuZlVw?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
+### ICMP 프로토콜 구조
+![Alt text](<../../resources/Computer Science/Network/IPv4프로토콜/02.png>)
+- Type : 메세지 타입 선택 (0~30번까지 다양함. 0,8 / 3,11 / 5가 주로 쓰이는 메세지 타입)
+- 0 : 메시지 응답
+- 8 : 메세지 확인 요청
+- 3 : 목적지에 도달할 수 없다 (목적지까지 아예 가질 못한 것 -> 경로상 문제)
+- 11 : 요청시간이 만료되었다 (목적지까지 갔지만 응답을 받지 못한 것 -> 상대방 문제, 대표적으로 방화벽)
+- 5 : 원격지에 있는 상대방의 라우팅테이블을 원격으로 수정
+- Code : 추가적인 메세지 정보 (Type이 대분류, Code가 소분류라고 생각하면 된다.)
+- Checksum : 헤더에 오류가 있는지 확인하는 파트 (손실 방지)
 
-- 
+## 라우팅 테이블
+- 경로를 지도처럼 저장해놓는 것. 해당 테이블에 존재하지 않는 대역은 찾아갈 수 없음
+- 게이트웨이를 설정해놓으면 라우팅 테이블에 존재하지 않는 것은 게이트웨이 쪽으로 넘김
+- netstat -r 로 라우팅 테이블 정보 확인 가
 
-### [라우팅 테이블](https://youtu.be/CjnKNIyREHA?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
-
-- 
-
-### [라우팅 테이블 확인 실습](https://youtu.be/tVntagSJctc?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
-
-- 
-
-### [IPv4 조각화 이론](https://youtu.be/_AONcID7Sc8?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
-
-- 
-
-### [IPv4 조각화 실습](https://youtu.be/QKEL9aBgHtg?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
-
--
+### IPv4 조각화 이론
+- 큰 IP패킷들이 적은 MTU(Maximum Transmission Unit, 데이터 최대 전송단위)를 갖는 링크를 통해 전송되려면 - 여러개의 작은 패킷으로 조각화되어야 한다.
+- 즉 목적지까지 전달하는 과정에서 각 라우터마다 전송에 적합하도록 변환하는 과정이 필요
+- 조각화된 패킷은 최종 목적지까지는 재조립되지 않는 것이 일반적임
+- IPv4에서는 중간 라우터에서도 IP 조각화가 가능하지만 IPv6에서는 발신지에서만 가능
+![Alt text](<../../resources/Computer Science/Network/IPv4프로토콜/03.png>)
+- 각 조각화 패킷에는 IPv4 헤더의 용량(위의 경우 20byte)도 포함하여 고려되어야 함
+- cf. Offset은 패킷용량/8 로 표기
+- 보통 MTU가 1500이기 때문에 조각화된 패킷에 이더넷 헤더 용량이 추가된 1514byte의 데이터가 많음
