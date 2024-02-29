@@ -72,12 +72,12 @@
 | ------ | ------ | ------ |
 |0|[강의개요](/Computer%20Science/Data%20Structure/README.md)|[참고강의](https://www.youtube.com/playlist?list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)||
 |1|[Array](/Computer%20Science/Data%20Structure/Array.md)|이윤형|
-|2|[LinkedList]()||
-|3|[Array & ArrayList & LinkedList]()||
+|2|[LinkedList](/Computer%20Science/Data%20Structure/Linked%20List.md)||
+|3|[Array & ArrayList & LinkedList](/Computer%20Science/Data%20Structure/Array%20vs%20ArrayList%20vs%20LinkedList.md)||
 |4|[스택(Stack) & 큐(Queue)](/Computer%20Science/Data%20Structure/Stack%20%26%20Queue.md)|승재홍|
 |5|[힙(Heap)](/Computer%20Science/Data%20Structure/Heap.md)|김민욱|
 |6|[트리(Tree)](/Computer%20Science/Data%20Structure/Tree.md)|전규훈|
-|7|[이진탐색트리(Binary Search Tree)]()||
+|7|[이진탐색트리(Binary Search Tree)](/Computer%20Science/Data%20Structure/Binary%20Search%20Tree.md)||
 |8|[해시(Hash)](/Computer%20Science/Data%20Structure/Hash.md)|강민지|
 |9|[트라이(Trie)](/Computer%20Science/Data%20Structure/Trie.md)|문철환|
 |10|[B-Tree & B+Tree](/Computer%20Science/Data%20Structure/B%20Tree%20%26%20B%2B%20Tree.md)|강성권|
@@ -107,11 +107,11 @@
 |8| [입출력장치](/Computer%20Science/Computer%20Architecture/ch_08.입출력장치.md) |강성권|
 |9| [운영체제 시작하기]() ||
 |10| [프로세스와 스레드]() ||
-|11| [CPU 스케줄링]() |강성권|
+|11| [CPU 스케줄링](/Computer%20Science/Computer%20Architecture/ch_11.CPU%20스케줄링.md) |강성권|
 |12| [프로세스 동기화](/Computer%20Science/Computer%20Architecture/ch_12.프로세스%20동기화.md) |김민욱|
-|13| [교착 상태]() |강민지|
-|14| [가상 메모리]() |문철환|
-|15| [파일 시스템](Computer%20Science\Computer%20Architecture\ch_15.%20파일%20시스템.md) |전규훈|
+|13| [교착 상태](/Computer%20Science/Computer%20Architecture/ch_13.교착상태.md) |강민지|
+|14| [가상 메모리](/Computer%20Science/Computer%20Architecture/ch_14.가상%20메모리.md) |문철환|
+|15| [파일 시스템](Computer%20Science/Computer%20Architecture/ch_15.%20파일%20시스템.md) |전규훈|
 
 </div>
 </details>
@@ -131,11 +131,11 @@
 |3| [4장 IP 주소](네트워크/4장-IP-주소.md) |이윤형|
 |4| [5장 ARP 프로토콜](/Computer%20Science/Network/5장-ARP-프로토콜.md) |김민욱|
 |5| [6장 IPv4, ICMP 프로토콜](/Computer%20Science/Network/6장-IPv4,-ICMP-프로토콜.md) |강민지|
-|6| [7장 전송계층 및 포트](네트워크/7장-전송계층-및-포트.md) |문철환|
-|7| [8장 UDP 비연결지향형](네트워크/8장-UDP-비연결지향형.md) ||
-|8| [9장 TCP 연결지향형](네트워크/9장-TCP-연결지향형.md) ||
-|9| [10장 NAT와 포트포워딩](네트워크/10장-NAT와-포트포워딩.md) ||
-|10| [11장 HTTP 프로토콜](네트워크/11장-HTTP-프로토콜.md) ||
+|6| [7장 전송계층 및 포트](/Computer%20Science/Network/7장-전송계층-및-포트.md) |문철환|
+|7| [8장 UDP 비연결지향형](/Computer%20Science/Network/8장-UDP-비연결지향형.md) ||
+|8| [9장 TCP 연결지향형](/Computer%20Science/Network/9장-TCP-연결지향형.md) ||
+|9| [10장 NAT와 포트포워딩](/Computer%20Science/Network/10장-NAT와-포트포워딩.md) ||
+|10| [11장 HTTP 프로토콜](/Computer%20Science/Network/11장-HTTP-프로토콜.md) ||
 
 </div>
 </details>
