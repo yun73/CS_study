@@ -111,7 +111,7 @@
 |12| [프로세스 동기화](/Computer%20Science/Computer%20Architecture/ch_12.프로세스%20동기화.md) |김민욱|
 |13| [교착 상태]() |강민지|
 |14| [가상 메모리]() |문철환|
-|15| [파일 시스템]() |전규훈|
+|15| [파일 시스템](Computer%20Science\Computer%20Architecture\ch_15.%20파일%20시스템.md) |전규훈|
 
 </div>
 </details>
