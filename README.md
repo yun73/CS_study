@@ -106,8 +106,10 @@
 |7| [보조기억장치]() ||
 |8| [입출력장치](/Computer%20Science/Computer%20Architecture/ch_08.입출력장치.md) |강성권|
 |9| [운영체제 시작하기]() ||
-|10| [프로세스와 스레드]() ||
-|11| [CPU 스케줄링](/Computer%20Science/Computer%20Architecture/ch_11.CPU%20스케줄링.md) |강성권|
+
+|10| [프로세스와 스레드](/Computer%20Science/Computer%20Architecture/ch_10.프로세스와%20스레드.md) |전규훈|
+|11| [CPU 스케줄링]() |강성권|
+
 |12| [프로세스 동기화](/Computer%20Science/Computer%20Architecture/ch_12.프로세스%20동기화.md) |김민욱|
 |13| [교착 상태](/Computer%20Science/Computer%20Architecture/ch_13.교착상태.md) |강민지|
 |14| [가상 메모리](/Computer%20Science/Computer%20Architecture/ch_14.가상%20메모리.md) |문철환|
