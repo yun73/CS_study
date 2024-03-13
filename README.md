@@ -102,13 +102,13 @@
 |3| [명령어](/Computer%20Science/Computer%20Architecture/ch_03.명령어.md) |이윤형|
 |4| [cpu작동원리](/Computer%20Science/Computer%20Architecture/ch_04.CPU%20작동원리.md) |이윤형|
 |5| [CPU 성능 향상 기법](/Computer%20Science/Computer%20Architecture/ch_05.CPU%20성능%20향상%20기법.md) |강민지|
-|6| [메모리와 캐시 메모리]() ||
-|7| [보조기억장치]() ||
+|6| [메모리와 캐시 메모리](/Computer%20Science/Computer%20Architecture/ch_06.메모리와 캐시메모리.md) |강민지|
+|7| [보조기억장치](/Computer%20Science/Computer%20Architecture/ch_07.보조기억장치.md) |승재홍|
 |8| [입출력장치](/Computer%20Science/Computer%20Architecture/ch_08.입출력장치.md) |강성권|
-|9| [운영체제 시작하기]() ||
+|9| [운영체제 시작하기]() |김민욱|
 
 |10| [프로세스와 스레드](/Computer%20Science/Computer%20Architecture/ch_10.프로세스와%20스레드.md) |전규훈|
-|11| [CPU 스케줄링]() |강성권|
+|11| [CPU 스케줄링](/Computer%20Science/Computer%20Architecture/ch_11.CPU 스케줄링.md) |강성권|
 
 |12| [프로세스 동기화](/Computer%20Science/Computer%20Architecture/ch_12.프로세스%20동기화.md) |김민욱|
 |13| [교착 상태](/Computer%20Science/Computer%20Architecture/ch_13.교착상태.md) |강민지|
@@ -134,10 +134,10 @@
 |4| [5장 ARP 프로토콜](/Computer%20Science/Network/5장-ARP-프로토콜.md) |김민욱|
 |5| [6장 IPv4, ICMP 프로토콜](/Computer%20Science/Network/6장-IPv4,-ICMP-프로토콜.md) |강민지|
 |6| [7장 전송계층 및 포트](/Computer%20Science/Network/7장-전송계층-및-포트.md) |문철환|
-|7| [8장 UDP 비연결지향형](/Computer%20Science/Network/8장-UDP-비연결지향형.md) ||
-|8| [9장 TCP 연결지향형](/Computer%20Science/Network/9장-TCP-연결지향형.md) ||
-|9| [10장 NAT와 포트포워딩](/Computer%20Science/Network/10장-NAT와-포트포워딩.md) ||
-|10| [11장 HTTP 프로토콜](/Computer%20Science/Network/11장-HTTP-프로토콜.md) ||
+|7| [8장 UDP 비연결지향형](/Computer%20Science/Network/8장-UDP-비연결지향형.md) |이윤형|
+|8| [9장 TCP 연결지향형](/Computer%20Science/Network/9장-TCP-연결지향형.md) |전규훈|
+|9| [10장 NAT와 포트포워딩](/Computer%20Science/Network/10장-NAT와-포트포워딩.md) |문철환|
+|10| [11장 HTTP 프로토콜](/Computer%20Science/Network/11장-HTTP-프로토콜.md) |강성권|
 
 </div>
 </details>
